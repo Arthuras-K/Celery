@@ -1,5 +1,5 @@
 import cv2
-# from cv2 import dnn_superres
+from cv2 import dnn_superres
 
 
 def upscale(input_path: str, output_path: str, model_path: str = 'EDSR_x2.pb') -> None:
